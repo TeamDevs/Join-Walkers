@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+html(lang="es")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0")
+		script(src='js/jquery.min.js')
+		link(rel='stylesheet', href='css/bootstrap.min.css')
+		link(rel='stylesheet', href='css/style.min.css')
+		title My Workflow
+	body
+		.container.fondoBoddy
+			img(src='images/logo.jpg', width='50%').img-responsive
+			nav.navbar.navbar-inverse
+				.container-fluid
+					.navbar-header
+						button(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-9', aria-expanded='false').collapsed.navbar-toggle
+							span.sr-only Toggle navigation
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+						a.navbar-brand(href='#') Personal Trainer
+					#bs-example-navbar-collapse-9.collapse.navbar-collapse
+						ul.nav.navbar-nav
+							li.active
+								a(href='index.html') Inicio
+							li
+								a(href='personal.html') Personal Training
+							li
+								a(href='buddy.html') Formaciónn de Amigos
+							li
+								a(href='trainer.html') Nuestros Trainers
+							li
+								a(href='galeria.html') Galeria
+							li
+								a(href='blog.html') Blog
+							li
+								a(href='contacto.html') Contactenos
+
+			.col-xs-12.col-sm-12.col-md-12.col-lg-12
+				.col-xs-12.col-sm-12.col-md-9.col-lg-9
+					h1 Ubiquenos
+					iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15606.756866453423!2d-77.0367465!3d-12.0648913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x308a5998a681e2ba!2sUniversidad+Tecnol%C3%B3gica+del+Per%C3%BA!5e0!3m2!1ses!2spe!4v1477775664489" width="600" height="450" frameborder="0" style="border:0" allowfullscreen)
+				.col-xs-12.col-sm-12.col-md-3.col-lg-3
+					div.formConsulta-header Reservar una Consulta Gratuita
+					form.formConsulta-boddy
+						.form-group
+							label(for='exampleInputName').formConsulta-label Nombre *
+							input(type='text' id='exampleInputName' placeholder='Nombre Completo').form-control
+							label(for='exampleInputEmail').formConsulta-label Correo Electronico *
+							input(type='email' id='exampleInputEmail' placeholder='Email').form-control
+							label(for='exampleInputPhone').formConsulta-label Telefono/Celular *
+							input(type='email' id='exampleInputPhone' placeholder='Numero Telefonico').form-control
+							label(for='exampleTextAreaMessage').formConsulta-label Cuéntanos acerca de tí
+							textarea(id='exampleTextAreaMessage', placeholder='Mensaje').form-control
+							button(type='submit').btn.btn-lg.btn-block.formConsulta-button Get Starteds !!
+					img(src='images/blog-01.jpg').img-responsive
+		.container(style='padding-right: 0px; padding-left: 0px;')
+			footer.footer-bs
+				.row
+					.col-md-3.footer-brand.animated.fadeInLeft
+						h2 Logos
+						p Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.
+						p © 2014 BS3 UI Kit, All rights reserved
+					.col-md-4.footer-nav.animated.fadeInUp
+						h4 Menu
+						.col-md-6
+							ul.pages
+								li: a(href='#') Travel
+								li: a(href='#') Nature
+								li: a(href='#') Explores
+								li: a(href='#') Science
+								li: a(href='#') Advice
+						.col-md-6
+							ul.list
+								li: a(href='#') About Us
+								li: a(href='#') Contacts
+								li: a(href='#') Terms & Condition
+								li: a(href='#') Privacy Policy
+					.col-md-2.footer-social.animated.fadeInDown
+						h4 Follow Us
+						ul
+							li: a(href='#') Facebook
+							li: a(href='#') Twitter
+							li: a(href='#') Instagram
+							li: a(href='#') RSS
+					.col-md-3.footer-ns.animated.fadeInRight
+						h4 Newsletter
+						p A rover wearing a fuzzy suit doesn’t alarm the real penguins
+						p
+							.input-group
+								input(type='text', placeholder='Search for..').form-control
+								span.input-group-btn
+									button(type='button').btn.btn-default
+										span.glyphicon.glyphicon-envelope
+
+		script(src='js/bootstrap.min.js')
+		script(src='js/script.min.js')
