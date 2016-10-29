@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+html(lang="es")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0")
+		script(src='js/jquery.min.js')
+		link(rel='stylesheet', href='css/bootstrap.min.css')
+		link(rel='stylesheet', href='css/style.min.css')
+		title My Workflow
+	body
+		.container.fondoBoddy
+			img(src='images/logo.jpg', width='50%').img-responsive
+			nav.navbar.navbar-inverse
+				.container-fluid
+					.navbar-header
+						button(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-9', aria-expanded='false').collapsed.navbar-toggle
+							span.sr-only Toggle navigation
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+						a.navbar-brand(href='#') Personal Trainer
+					#bs-example-navbar-collapse-9.collapse.navbar-collapse
+						ul.nav.navbar-nav
+							li
+								a(href='index.html') Inicio
+							li
+								a(href='personal.html') Personal Training
+							li
+								a(href='buddy.html') Formaciónn de Amigos
+							li.active
+								a(href='trainer.html') Nuestros Trainers
+							li
+								a(href='galeria.html') Galeria
+							li
+								a(href='blog.html') Blog
+							li
+								a(href='contacto.html') Contactenos
+
+			.col-xs-12.col-sm-12.col-md-12.col-lg-12
+				.col-xs-12.col-sm-12.col-md-9.col-lg-9
+					h1 Nuestros entrenadores personales
+					p Con base en nuestra Surrey, A.C. estudio de entrenamiento, somos un equipo de cuatro personas que comparten una pasión de por vida para la salud y el bienestar, y se ha comprometido a ayudar a cada uno de nuestros clientes a lograr la mejor condición física de su vida de la manera más agradable y gratificante.
+					p Nuestro equipo de formadores está certificado por la Academia Nacional de Medicina Deportiva, CanFitPro, y la Academia de la cumbre. Estas instituciones de salud y forma física han establecido el estándar de certificación, educación continua, y la solución para los deportes profesionales de la medicina de la salud y la forma física.
+					.col-xs-12.col-sm-6.col-md-4.col-lg-4
+						.team-members
+							.team-avatar
+								img(src='images/trainer-01.jpg', width='247px').img-responsive
+							.team-desc
+								h4 John Doe
+								span Training
+					.col-xs-12.col-sm-6.col-md-4.col-lg-4
+						.team-members
+							.team-avatar
+								img(src='images/trainer-02.jpg', width='247px').img-responsive
+							.team-desc
+								h4 Mario Doe
+								span Training
+					.col-xs-12.col-sm-6.col-md-4.col-lg-4
+						.team-members
+							.team-avatar
+								img(src='images/trainer-03.jpg', width='247px').img-responsive
+							.team-desc
+								h4 Silvana Lesvi
+								span Training
+					.col-xs-12.col-sm-6.col-md-4.col-lg-4
+						.team-members
+							.team-avatar
+								img(src='images/trainer-04.jpg', width='247px').img-responsive
+							.team-desc
+								h4 John Doe
+								span Training
+					.col-xs-12.col-sm-6.col-md-4.col-lg-4
+						.team-members
+							.team-avatar
+								img(src='images/trainer-01.jpg', width='247px').img-responsive
+							.team-desc
+								h4 John Doe
+								span Training
+					.col-xs-12.col-sm-6.col-md-4.col-lg-4
+						.team-members
+							.team-avatar
+								img(src='images/trainer-02.jpg', width='247px').img-responsive
+							.team-desc
+								h4 Mario Doe
+								span Training
+					//- .col-xs-12.col-sm-12.col-md-9.col-lg-9
+					//- 	p Travis había sido un habitual en el gimnasio desde que tenía 16. Al ser un atleta ex rugby, fútbol, ​​béisbol y voleibol, mantenerse en forma era tan fácil y natural como respirar.
+					//- 	p Las cosas cambiaron después de un corto periodo de tiempo en su nueva carrera de finanzas. El trabajo al día estresante mundo de tratar de aterrizar nuevo negocio y gestionar los fondos de sus clientes cambió su enfoque lejos de mantenerse en forma y saludable, y vio a inclinar su peso en la balanza 245.
+					//- 	p Travis no estaba preocupado-comenzó a trabajar con regularidad utilizando correr, pesas y otros ejercicios de cardio para tratar de detener y revertir el aumento de peso. Pero nada funcionó. De hecho, incluso cuando llegó al punto en el que estaba trabajando a diario, vio a un mínimo o ningún efecto. Trabajar tan duro sin ningún resultado era aplastante. Travis pierde la motivación y comenzó a pensar que tal vez sólo debe aceptar que esta era su "normal genética."
+					//- 	p Fue el descubrimiento de la nutrición y de la aptitud Paleo que todo empezó a cambiar. Sus resultados lograron una pérdida de peso de 50 libras saludable y sostenible en seis meses. Continuó con su plan y se produjeron cambios increíbles a su definición muscular y la composición corporal. La combinación de las ideas de la dieta Paleo / fitness y la experimentación ventaja personal para el desarrollo de un enfoque de la salud y la forma física que podría aplicarse a cualquiera que quería ver su cuerpo a volver a su composición única del cuerpo, genética. Con lo que este enfoque de la SmartFit enfoque ha convertido desde entonces en una de las pasiones de toda la vida de Travis.
+				.col-xs-12.col-sm-12.col-md-3.col-lg-3
+					div.formConsulta-header Reservar una Consulta Gratuita
+					form.formConsulta-boddy
+						.form-group
+							label(for='exampleInputName').formConsulta-label Nombre *
+							input(type='text' id='exampleInputName' placeholder='Nombre Completo').form-control
+							label(for='exampleInputEmail').formConsulta-label Correo Electronico *
+							input(type='email' id='exampleInputEmail' placeholder='Email').form-control
+							label(for='exampleInputPhone').formConsulta-label Telefono/Celular *
+							input(type='email' id='exampleInputPhone' placeholder='Numero Telefonico').form-control
+							label(for='exampleTextAreaMessage').formConsulta-label Cuéntanos acerca de tí
+							textarea(id='exampleTextAreaMessage', placeholder='Mensaje').form-control
+							button(type='submit').btn.btn-lg.btn-block.formConsulta-button Get Starteds !!
+					img(src='images/blog-01.jpg').img-responsive
+
+		.container(style='padding-right: 0px; padding-left: 0px;')
+			footer.footer-bs
+				.row
+					.col-md-3.footer-brand.animated.fadeInLeft
+						h2 Logos
+						p Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.
+						p © 2014 BS3 UI Kit, All rights reserved
+					.col-md-4.footer-nav.animated.fadeInUp
+						h4 Menu
+						.col-md-6
+							ul.pages
+								li: a(href='#') Travel
+								li: a(href='#') Nature
+								li: a(href='#') Explores
+								li: a(href='#') Science
+								li: a(href='#') Advice
+						.col-md-6
+							ul.list
+								li: a(href='#') About Us
+								li: a(href='#') Contacts
+								li: a(href='#') Terms & Condition
+								li: a(href='#') Privacy Policy
+					.col-md-2.footer-social.animated.fadeInDown
+						h4 Follow Us
+						ul
+							li: a(href='#') Facebook
+							li: a(href='#') Twitter
+							li: a(href='#') Instagram
+							li: a(href='#') RSS
+					.col-md-3.footer-ns.animated.fadeInRight
+						h4 Newsletter
+						p A rover wearing a fuzzy suit doesn’t alarm the real penguins
+						p
+							.input-group
+								input(type='text', placeholder='Search for..').form-control
+								span.input-group-btn
+									button(type='button').btn.btn-default
+										span.glyphicon.glyphicon-envelope
+		//- .container
+		//- 	h1 My Workflow with Gulp
+
+		//- ul
+		//- 	li: a(href='#') desde Index.pug
+
+		//- span 
+		//- 	strong @JMitac sapee !!
+		//- br
+		//- p Copyright Dx
+
+		//- span.glyphicon.glyphicon-heart(aria-hidden='true')
+		
+		script(src='js/bootstrap.min.js')
+		script(src='js/script.min.js')
